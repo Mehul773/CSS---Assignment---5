@@ -147,11 +147,48 @@ li {
   width: 15vw;
   height: 17vw;
   border-radius: 4px;
+  transition: all 0.3s ease-out;
 }
 
 .feature:hover{
   cursor: pointer;
+  color: white;
 }
+
+.feature i {
+  transition: all 0.8s ease;
+}
+
+.feature:hover i{
+  transform: rotateZ(360deg);
+}
+
+.feature1:hover{
+  transform: scale(1.03);
+  background-color: rgb(255, 108, 247);
+  border: 2px solid rgb(255, 108, 247);
+}
+.feature2:hover{
+  transform: scale(1.03);
+  background-color: rgb(15, 165, 131);
+  border: 2px solid rgb(15, 165, 131);
+}
+.feature3:hover{
+  transform: scale(1.03);
+  background-color: rgb(255, 195, 27);
+  border: 2px solid rgb(255, 195, 27);
+}
+.feature4:hover{
+  transform: scale(1.03);
+  background-color: rgb(95, 139, 255);
+  border: 2px solid rgb(95, 139, 255);
+}
+.feature5:hover{
+  transform: scale(1.03);
+  background-color: rgb(81, 81, 81);
+  border: 2px solid rgb(81, 81, 81);
+}
+
 
 .feature p {
   text-align: center;
@@ -165,12 +202,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background-color: white;
 }
 
 .music_icon {
   border: 1px solid rgb(255, 108, 247);
   color: rgb(255, 108, 247);
+  background-color: white;
 }
 
 .download_icon {
@@ -178,7 +216,8 @@ li {
   color: rgb(15, 165, 131);
 }
 
-.location_icon {
+
+.picture_icon {
   border: 1px solid rgb(255, 195, 27);
   color: rgb(255, 195, 27);
 }
@@ -188,14 +227,15 @@ li {
   color: rgb(95, 139, 255);
 }
 
-.picture_icon {
+.location_icon {
   border: 1px solid rgb(81, 81, 81);
   color: rgb(81, 81, 81);
 }
-
 .music-feature {
   transition: all 0.3s ease-out;
 }
+
+
 .music-feature:hover {
   background-color: rgb(255, 108, 247);
   transform: scale(1.04);
