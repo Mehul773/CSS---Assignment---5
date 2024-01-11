@@ -149,6 +149,10 @@ li {
   border-radius: 4px;
 }
 
+.feature:hover{
+  cursor: pointer;
+}
+
 .feature p {
   text-align: center;
 }
@@ -161,6 +165,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .music_icon {
@@ -188,6 +193,17 @@ li {
   color: rgb(81, 81, 81);
 }
 
+.music-feature {
+  transition: all 0.3s ease-out;
+}
+.music-feature:hover {
+  background-color: rgb(255, 108, 247);
+  transform: scale(1.04);
+}
+.music-feature:hover i{ 
+  color: white;
+}
+
 .footer_part {
   display: flex;
   justify-content: center;
@@ -208,10 +224,17 @@ li {
   cursor: pointer;
 }
 
-.image1{
+.image1 img,.image2 img{
   transition: all 0.3s ease-out;
 }
 
-.image1:hover {
+.image1:hover img{
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
+
+.image2:hover img{
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
