@@ -312,14 +312,23 @@ li {
 }
 
 /* Tablet  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   p,
   li {
-    font-size: 0.65em;
+    font-size: 0.8em;
   }
   .image1,
   .image2 {
     height: 300px;
+  }
+  .all_features{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .feature{
+      width: 30vw;
+      height: 30vh;
   }
 }
 
